@@ -19,7 +19,7 @@ class ArtistSearchSwiftUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testDownloadWebData() {
+    func testDownloadSongTracks() {
         
         let expectation = XCTestExpectation(description: "Search for artist on iTunes and download related track data.")
         let sut = NetworkService()
