@@ -12,7 +12,7 @@ struct TrackDisplayData: Identifiable {
     let id = UUID()
     var artistName: String?
     var trackName: String?
-    var trackPrice: Double?
+    var trackPrice: String?
     var releaseDate: String?
     var primaryGenreName: String?
 }

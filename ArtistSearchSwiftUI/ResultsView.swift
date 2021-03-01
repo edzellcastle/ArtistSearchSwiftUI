@@ -35,14 +35,14 @@ struct ResultsView: View {
                     })
                     .cornerRadius(10)
                     .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
-                    List(viewModel.tracks) { track in
+                    List(viewModel.tracksDisplayData) { track in
                         HStack {
                             Text(track.artistName ?? "")
                             VStack(alignment: .leading) {
                                 Text(track.trackName ?? "")
                                 Text(track.releaseDate ?? "")
                                 Text(track.primaryGenreName ?? "")
-                                Text(String(format: "%.2f", track.trackPrice ?? 0.0))
+                                Text(track.trackPrice ?? "")
                             }
                         }
                     }

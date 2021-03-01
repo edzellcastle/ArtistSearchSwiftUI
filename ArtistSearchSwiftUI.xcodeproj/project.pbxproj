@@ -19,6 +19,7 @@
 		63A9EC8025E7965E0032F5F7 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC7F25E7965E0032F5F7 /* ResultsView.swift */; };
 		63A9EC8825E80C8A0032F5F7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC8725E80C8A0032F5F7 /* ViewModel.swift */; };
 		63A9ECD925EB76320032F5F7 /* TrackDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9ECD825EB76320032F5F7 /* TrackDisplayData.swift */; };
+		63A9ECEA25ED58840032F5F7 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9ECE925ED58840032F5F7 /* DateExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		63A9EC7F25E7965E0032F5F7 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		63A9EC8725E80C8A0032F5F7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		63A9ECD825EB76320032F5F7 /* TrackDisplayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackDisplayData.swift; sourceTree = "<group>"; };
+		63A9ECE925ED58840032F5F7 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				63A9ECD825EB76320032F5F7 /* TrackDisplayData.swift */,
 				63A9EC5D25E769020032F5F7 /* Track.swift */,
 				63A9EC7625E785AB0032F5F7 /* TrackResponse.swift */,
+				63A9ECE925ED58840032F5F7 /* DateExtension.swift */,
 				63A9EC3325E768EA0032F5F7 /* Assets.xcassets */,
 				63A9EC3825E768EA0032F5F7 /* Info.plist */,
 				63A9EC3525E768EA0032F5F7 /* Preview Content */,
@@ -281,6 +284,7 @@
 				63A9EC3225E768E90032F5F7 /* HomeView.swift in Sources */,
 				63A9EC8025E7965E0032F5F7 /* ResultsView.swift in Sources */,
 				63A9EC3025E768E90032F5F7 /* ArtistSearchSwiftUIApp.swift in Sources */,
+				63A9ECEA25ED58840032F5F7 /* DateExtension.swift in Sources */,
 				63A9EC6325E7696F0032F5F7 /* NetworkService.swift in Sources */,
 				63A9EC7725E785AB0032F5F7 /* TrackResponse.swift in Sources */,
 				63A9EC5E25E769020032F5F7 /* Track.swift in Sources */,
