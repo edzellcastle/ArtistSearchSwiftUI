@@ -41,7 +41,7 @@ class ArtistSearchSwiftUITests: XCTestCase {
         }
 
         wait(for: [expectation], timeout: 5.0)
-        XCTAssertGreaterThan(testTracks.count, 10)
+        XCTAssertGreaterThan(testTracks.count, 20)
     }
 
 }
