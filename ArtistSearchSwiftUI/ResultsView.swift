@@ -33,8 +33,7 @@ struct ResultsView: View {
                             .background(Color.white)
                     })
                     .cornerRadius(10)
-                    .padding(.leading, 20)
-                    .padding(.trailing, 20)
+                    .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
                     List(viewModel.tracks) { track in
                         HStack {
                             Text(track.artistName ?? "")
