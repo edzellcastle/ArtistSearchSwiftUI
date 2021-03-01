@@ -15,7 +15,8 @@ struct ResultsView: View {
         ZStack {
             if viewModel.isLoading {
                 ProgressView()
-                    .progressViewStyle(CircularProgressViewStyle())
+                    .scaleEffect(1.5, anchor: .center)
+                    .progressViewStyle(CircularProgressViewStyle(tint: .blue))
             } else {
                 VStack {
                     Button(action: {
