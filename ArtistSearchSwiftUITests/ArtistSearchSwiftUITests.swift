@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import SwiftUI
 @testable import ArtistSearchSwiftUI
 
 class ArtistSearchSwiftUITests: XCTestCase {
@@ -18,16 +19,29 @@ class ArtistSearchSwiftUITests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    func testDownloadWebData() {
+        
+        let expectation = XCTestExpectation(description: "Search for artist on iTunes and download related track data.")
+        let sut = NetworkService()
+        
+        var result: Result<[Track], Error>?
+        var testTracks = [Track]()
+        
+        sut.fetchTrackData(searchTerm: "Allman Brothers") {
+            result = $0
+            expectation.fulfill()
+            switch result {
+            case .success(let data):
+                testTracks = data
+            case .failure(let error):
+                print(error.localizedDescription)
+            default:
+                break
+            }
         }
+
+        wait(for: [expectation], timeout: 5.0)
+        XCTAssertGreaterThan(testTracks.count, 10)
     }
 
 }

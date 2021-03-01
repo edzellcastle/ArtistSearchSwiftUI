@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		63A9EC3025E768E90032F5F7 /* ArtistSearchSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC2F25E768E90032F5F7 /* ArtistSearchSwiftUIApp.swift */; };
-		63A9EC3225E768E90032F5F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC3125E768E90032F5F7 /* ContentView.swift */; };
+		63A9EC3225E768E90032F5F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC3125E768E90032F5F7 /* HomeView.swift */; };
 		63A9EC3425E768EA0032F5F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A9EC3325E768EA0032F5F7 /* Assets.xcassets */; };
 		63A9EC3725E768EA0032F5F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A9EC3625E768EA0032F5F7 /* Preview Assets.xcassets */; };
 		63A9EC4225E768EB0032F5F7 /* ArtistSearchSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC4125E768EB0032F5F7 /* ArtistSearchSwiftUITests.swift */; };
 		63A9EC4D25E768EB0032F5F7 /* ArtistSearchSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC4C25E768EB0032F5F7 /* ArtistSearchSwiftUIUITests.swift */; };
+		63A9EC5E25E769020032F5F7 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC5D25E769020032F5F7 /* Track.swift */; };
+		63A9EC6325E7696F0032F5F7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC6225E7696F0032F5F7 /* NetworkService.swift */; };
+		63A9EC7725E785AB0032F5F7 /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC7625E785AB0032F5F7 /* TrackResponse.swift */; };
+		63A9EC8025E7965E0032F5F7 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC7F25E7965E0032F5F7 /* ResultsView.swift */; };
+		63A9EC8825E80C8A0032F5F7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9EC8725E80C8A0032F5F7 /* ViewModel.swift */; };
+		63A9ECD925EB76320032F5F7 /* TrackDisplayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A9ECD825EB76320032F5F7 /* TrackDisplayData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +41,7 @@
 /* Begin PBXFileReference section */
 		63A9EC2C25E768E90032F5F7 /* ArtistSearchSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtistSearchSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A9EC2F25E768E90032F5F7 /* ArtistSearchSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchSwiftUIApp.swift; sourceTree = "<group>"; };
-		63A9EC3125E768E90032F5F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63A9EC3125E768E90032F5F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		63A9EC3325E768EA0032F5F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A9EC3625E768EA0032F5F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		63A9EC3825E768EA0032F5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +51,12 @@
 		63A9EC4825E768EB0032F5F7 /* ArtistSearchSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtistSearchSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A9EC4C25E768EB0032F5F7 /* ArtistSearchSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchSwiftUIUITests.swift; sourceTree = "<group>"; };
 		63A9EC4E25E768EB0032F5F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A9EC5D25E769020032F5F7 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		63A9EC6225E7696F0032F5F7 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		63A9EC7625E785AB0032F5F7 /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
+		63A9EC7F25E7965E0032F5F7 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		63A9EC8725E80C8A0032F5F7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		63A9ECD825EB76320032F5F7 /* TrackDisplayData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackDisplayData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				63A9EC2F25E768E90032F5F7 /* ArtistSearchSwiftUIApp.swift */,
-				63A9EC3125E768E90032F5F7 /* ContentView.swift */,
+				63A9EC3125E768E90032F5F7 /* HomeView.swift */,
+				63A9EC7F25E7965E0032F5F7 /* ResultsView.swift */,
+				63A9EC6225E7696F0032F5F7 /* NetworkService.swift */,
+				63A9EC8725E80C8A0032F5F7 /* ViewModel.swift */,
+				63A9ECD825EB76320032F5F7 /* TrackDisplayData.swift */,
+				63A9EC5D25E769020032F5F7 /* Track.swift */,
+				63A9EC7625E785AB0032F5F7 /* TrackResponse.swift */,
 				63A9EC3325E768EA0032F5F7 /* Assets.xcassets */,
 				63A9EC3825E768EA0032F5F7 /* Info.plist */,
 				63A9EC3525E768EA0032F5F7 /* Preview Content */,
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63A9EC3225E768E90032F5F7 /* ContentView.swift in Sources */,
+				63A9ECD925EB76320032F5F7 /* TrackDisplayData.swift in Sources */,
+				63A9EC3225E768E90032F5F7 /* HomeView.swift in Sources */,
+				63A9EC8025E7965E0032F5F7 /* ResultsView.swift in Sources */,
 				63A9EC3025E768E90032F5F7 /* ArtistSearchSwiftUIApp.swift in Sources */,
+				63A9EC6325E7696F0032F5F7 /* NetworkService.swift in Sources */,
+				63A9EC7725E785AB0032F5F7 /* TrackResponse.swift in Sources */,
+				63A9EC5E25E769020032F5F7 /* Track.swift in Sources */,
+				63A9EC8825E80C8A0032F5F7 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
