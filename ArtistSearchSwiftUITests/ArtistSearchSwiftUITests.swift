@@ -24,7 +24,7 @@ class ArtistSearchSwiftUITests: XCTestCase {
         let expectation = XCTestExpectation(description: "Search for artist on iTunes and download related track data.")
         let sut = NetworkService()
         
-        var result: Result<[Track], Error>?
+        var result: Result<[Track], NetworkError>?
         var testTracks = [Track]()
         
         sut.fetchTrackData(searchTerm: "Allman Brothers") {
